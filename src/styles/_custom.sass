@@ -2,23 +2,25 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 60%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 85%
+    right: 65%
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 1%
+    right: 40%
   &-4
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 40%
+    right: 40%
+    height: 140px
+    width: 140px
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -49,6 +51,19 @@
     &__info
       padding-top: 15% !important 
       padding-right: 5% !important
+
+
+
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 50% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important
+.banner-principal__img 
+  padding-bottom: 0 !important
+.banner-principal__row .banner-principal__img 
+    width: 50%
+
 
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -263,6 +278,18 @@ figcaption
     margin-right: -2rem
     margin-left: -2rem
 
+.fondo11
+  background: url('../assets/curso/tema1/fondo1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
 
 .fondo6
   background: url('../assets/curso/tema3/fondo6.png')
@@ -505,3 +532,16 @@ figcaption
   background-color: #FFAF1A
   width: fit-content
   margin: auto
+
+
+.fas.fa-circle
+  color: #0D4AB5
+  font-size: 8px
+  margin-top: 7px
+ 
+
+.imgc
+  @media only screen and (max-width: 767px)
+    margin: auto
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    margin: auto

@@ -11,13 +11,12 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-7
         p.mb-4 Hablar de seguridad de la información implica proteger los activos de información de una organización frente a amenazas que puedan comprometer su confidencialidad, integridad y disponibilidad. Estos tres principios son fundamentales para garantizar la eficiencia y eficacia de los procesos, asegurando que la información sea fiable, precisa y accesible únicamente por quienes están autorizados (Novasep, 2021). La seguridad de la información es un concepto transversal a toda la organización, independientemente del sector, y constituye la base para establecer controles, políticas y procedimientos que aseguren la continuidad operativa y minimicen los riesgos a los que se expone la entidad.
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-5
-            img(src='@/assets/curso/tema2/1.png', alt=' ')
+        .row.justify-content-center.align-items-center.mb-lg-0
+          .col-lg-5.col-md-7.col-10
+            img.mb-lg-0.mb-4(src='@/assets/curso/tema2/1.png', alt=' ')
           .col-lg-7  
-            .ap.p-4.mb-0
-              .row.justify-content-center.align-items-center.mb-0
-                p.mb-2 Comprender estos principios es esencial, ya que sobre ellos se sustentan la toma de decisiones, garantizando que estén alineadas con los objetivos estratégicos y la normativa de la organización.   
+            .ap.p-4.mb-lg-0.mb-4
+              p.mb-0 Comprender estos principios es esencial, ya que sobre ellos se sustentan la toma de decisiones, garantizando que estén alineadas con los objetivos estratégicos y la normativa de la organización.   
       .col-lg-5
         img(src='@/assets/curso/tema2/2.svg', alt=' ')
 
@@ -31,9 +30,9 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
-        img(src='@/assets/curso/tema2/3.svg', alt=' ')
-      .col-lg-11
+      .col-lg-1.col-md-2.col-5
+          img.mb-lg-0.mb-4(src='@/assets/curso/tema2/3.svg', alt=' ')
+      .col-lg-11.col-md-10
         p.mb-0 Este principio garantiza que la información y los activos asociados sean accesibles únicamente por las personas autorizadas, evitando divulgaciones, pérdidas o usos indebidos que puedan afectar a la organización o a terceros vinculados a ella. Para preservar la confidencialidad, es necesario aplicar controles de acceso, permisos, cifrado de datos, políticas de manejo de información sensible, así como brindar capacitación al personal para prevenir filtraciones o mal uso de la información.
 
 
@@ -134,7 +133,7 @@
                   i.fas.fa-shield
                   p.mb-0 Facilita el cumplimiento normativo, especialmente en sectores que requieren registros confiables, como salud, educación y producción.
       .col-lg-4
-        img(src='@/assets/curso/tema2/15.svg', alt=' ')
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/15.svg', alt=' ')
 
 
 
@@ -217,7 +216,7 @@
                 .p-4
                   p.mb-2.my-3 Garantiza el cumplimiento de compromisos con clientes, estudiantes o usuarios finales.
       .col-lg-4
-        img(src='@/assets/curso/tema2/11.png', alt=' ')
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/11.png', alt=' ')
 
 
 

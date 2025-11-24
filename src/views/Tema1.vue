@@ -8,12 +8,11 @@
         h1 Activos de información 
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-8
+        .col-lg-8.mb-lg-0.mb-4
           p.mb-4 Hoy en día, la información se considera uno de los recursos de mayor valor dentro de una organización, ya que sobre ella se toman decisiones, se diseñan estrategias y se garantiza la continuidad de los procesos. Por esta razón, la información se reconoce como un activo, ya sea tangible o intangible, capaz de generar conocimiento, respaldar procesos y contribuir al logro de los objetivos organizacionales. Dado su valor, requiere un tratamiento especial para evitar alteraciones, pérdidas o usos indebidos que podrían ocasionar daños económicos, legales o reputacionales, afectando gravemente a la empresa.
           .ap.p-4.mb-0
-            .row.justify-content-center.align-items-center.mb-0
-              p.mb-0 Según la #[b Agencia Nacional Digital (AND) de Colombia,] un activo de información es todo recurso que tiene valor para la organización y que está relacionado con el ciclo de vida de la información, ya sea porque la contiene, la genera, la procesa, la almacena o la gestiona (AND, 2020a).
-        .col-lg-4
+            p.mb-0 Según la #[b Agencia Nacional Digital (AND) de Colombia,] un activo de información es todo recurso que tiene valor para la organización y que está relacionado con el ciclo de vida de la información, ya sea porque la contiene, la genera, la procesa, la almacena o la gestiona (AND, 2020a).
+        .col-lg-4.col-md-7.col-10
           img(src='@/assets/curso/tema1/1.png', alt=' ')
 
       
@@ -45,12 +44,12 @@
 
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-4
-          .ap1.p-4.mb-0
+          .ap1.p-4.mb-lg-0.mb-4
             p.mb-0.my-lg-2.mb-lg-3 Dado el valor que cada activo puede representar para la organización, es fundamental #[b identificarlos, clasificarlos y valorarlos] dentro de un sistema de gestión de seguridad de la información. Esto permite aplicar #[b controles que garanticen su confidencialidad, integridad y disponibilidad,] protegiéndolos frente a riesgos.
         .col-lg-3
-          img.mb-4.mb-lg-0.img-t(src='@/assets/curso/tema1/6.svg')
+          img.mb-4.mb-lg-0.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/6.svg')
         .col-lg-5
-          img.mb-2.img-t(src='@/assets/curso/tema1/7.svg')
+          img.mb-lg-2.mb-4.img-t.imgc(src='@/assets/curso/tema1/7.svg')
           p.mb-0 Con el tiempo, las organizaciones comenzaron a considerar la información no solo desde una perspectiva operativa, sino también estratégica. Hoy, elementos como correos electrónicos, políticas internas, manuales de procesos, bases de datos e incluso la experiencia de los trabajadores se han convertido en activos críticos que deben protegerse para asegurar la continuidad del negocio y mantener la confianza de los interesados.
 
 
@@ -60,7 +59,7 @@
 
       
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4
+        .col-lg-4.col-md-7.col-10.mb-lg-0.mb-4
           img(src='@/assets/curso/tema1/8.png', alt=' ')
         .col-lg-8
           p.mb-4 Los activos de información pueden ser presentados de diferentes formas en una organización, por lo tanto, una buena clasificación ayuda en la gestión y protección de los mismos. Reconocer su tipología permite saber y entender que hay que proteger, cómo se deben controlar, y qué valor estratégico aportan a los procesos; lo que facilita su identificación, protección y gestión adecuada dentro de la empresa. 
@@ -73,7 +72,7 @@
 
 
       .row.justify-content-center.align-items-start.mb-5
-          .col-lg-8.mb-lg-0.mb-5
+          .col-lg-8.mb-0
             AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
               .row.align-items-center(titulo="Activos de información")
                 .col-lg-12
@@ -91,7 +90,7 @@
                 .col-lg-11
                   p.mb-0 Lo conforman las personas que están vinculadas a la empresa, ya sea de manera temporal o permanente, como los empleados de planta y los contratistas. Representan un activo clave por sus conocimientos, habilidades, experiencias, responsabilidades, cargos y funciones que desempeñan dentro de la empresa, lo cual influye directamente en la continuidad y seguridad de los procesos.  
           .col-lg-4
-            img(src='@/assets/curso/tema1/9.png', alt=' ')
+            img.d-none.d-lg-block(src='@/assets/curso/tema1/9.png', alt=' ')
 
 
       p.mb-5 Para entender mejor cómo se identifican y clasifican los activos de información en diferentes contextos, a continuación se presentan ejemplos aplicados en tres tipos de organizaciones, relacionando los activos relevantes asociados a la gestión de una institución prestadora de salud, una corporación educativa y una finca agropecuaria: 
@@ -148,13 +147,13 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-3
-          img(src='@/assets/curso/tema1/10.png', alt=' ')
+          img.d-none.d-lg-block(src='@/assets/curso/tema1/10.png', alt=' ')
         .col-lg-9
           p.mb-4 El registro y la valoración de activos de información son procedimientos complementarios y fundamentales para la gestión de la seguridad de la información en una organización. El registro permite identificar, documentar y mantener actualizada la información sobre los activos que contienen, procesan o respaldan datos relevantes para la actividad comercial, incluyendo su ubicación, responsables de uso y administración, así como su valor para la organización. A partir de este conocimiento, la valoración busca determinar la importancia o criticidad de cada activo, estableciendo prioridades para su protección y gestión. Esta valoración se basa en el análisis del impacto que podría generar la pérdida, alteración o divulgación no autorizada de la información, considerando los tres principios esenciales de la seguridad: confidencialidad, integridad y disponibilidad.
           .ap2.p-4.mb-0
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-10
-                p.mb-0 La ISO/IEC 27001:2022, en el control A.5.9 (Gestión de inventario de la información y otros activos asociados), establece que toda organización debe contar con un inventario actualizado de activos de información, debidamente documentado y vinculado a los procesos de negocio (Cane, 2025).
+                p.mb-lg-0.mb-4 La ISO/IEC 27001:2022, en el control A.5.9 (Gestión de inventario de la información y otros activos asociados), establece que toda organización debe contar con un inventario actualizado de activos de información, debidamente documentado y vinculado a los procesos de negocio (Cane, 2025).
               .col-lg-2
                 img.img-t.img-a(src='@/assets/curso/tema1/11.svg', alt=' ')
 
@@ -218,16 +217,16 @@
 
 
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-1
-          img(src='@/assets/curso/tema1/13.svg', alt=' ')
-        .col-lg-11
-          p.mb-4 Dado que pueden presentarse confusiones al momento de clasificar los activos dentro de determinadas tipologías o categorías, ya que estas pueden variar según la referencia utilizada, en la siguiente tabla se presenta una equivalencia que sirve como guía. De esta manera, se ofrecen bases para ubicar los activos de manera adecuada o, en su defecto, realizar los ajustes necesarios cuando se trabaje con tipologías que presenten diferencias:
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-1.col-md-2.col-5
+          img.mb-lg-0.mb-4(src='@/assets/curso/tema1/13.svg', alt=' ')
+        .col-lg-11.col-md-10
+          p.mb-0 Dado que pueden presentarse confusiones al momento de clasificar los activos dentro de determinadas tipologías o categorías, ya que estas pueden variar según la referencia utilizada, en la siguiente tabla se presenta una equivalencia que sirve como guía. De esta manera, se ofrecen bases para ubicar los activos de manera adecuada o, en su defecto, realizar los ajustes necesarios cuando se trabaje con tipologías que presenten diferencias:
 
 
-      .row.fondo1.justify-content-center.align-items-center.p-2.mb-5
+      .row.fondo11.justify-content-center.align-items-center.p-2.mb-5
         .col-lg-12.px-lg-5.px-4.mb-0 
-          .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+          .row.justify-content-center.align-items-center.mt-5.mb-0(data-aos="fade-right")
             .col-lg-12
               .titulo-sexto.mb-2(alt='Tabla con ocho pasos para el trazo del rectángulo base del patrón infantil, que incluye fórmulas o medidas, descripción del trazado y la función correspondiente en la construcción del patrón básico superior.')
                 h5 Tabla 2.
@@ -273,9 +272,9 @@
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-5
-          img.mb-0(src='@/assets/curso/tema1/14.png', alt=' ')
+          img.mb-0.d-none.d-lg-block(src='@/assets/curso/tema1/14.png', alt=' ')
         .col-lg-7
-          p.mb-3 Después de tener el registro, se realiza una valoración de los activos de información, determinando qué tan importante son y qué impacto tendría para la empresa el perderlos, dañarlos o que sean revisados por personas no autorizadas. Con la valoración también se busca responder preguntas como las siguientes:
+          p.mb-lg-3.mb-4 Después de tener el registro, se realiza una valoración de los activos de información, determinando qué tan importante son y qué impacto tendría para la empresa el perderlos, dañarlos o que sean revisados por personas no autorizadas. Con la valoración también se busca responder preguntas como las siguientes:
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-7
               ul.lista-ul.mb-0
@@ -287,8 +286,8 @@
                   p.mb-2 ¿Qué tan vulnerable es el activo?
                 li.d-flex.mb-0
                   i.fas.fa-shield
-                  p.mb-0 ¿Qué nivel de protección necesita?
-            .col-lg-5 
+                  p.mb-lg-0.mb-md-4.mb-3 ¿Qué nivel de protección necesita?
+            .col-lg-5.col-md-8.col-10 
               img(src='@/assets/curso/tema1/15.png', alt=' ')
              
 
@@ -330,7 +329,7 @@
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
         .col-lg-12
-          .tarjeta--container.row.mb-5
+          .tarjeta--container.row.mb-0
             .col-lg-4.col-md-6.tarjeta.color-primario.tar1.p-lg-5.p-4.mb-lg-0.mb-4.mb-md-4
               .row.justify-content-center.mb-4
                 .col-6
@@ -360,7 +359,7 @@
 
       .row.justify-content-center.mb-5(data-aos="fade-down")
         .col-lg-4
-          img(src='@/assets/curso/tema1/22.png', alt=' ')
+          img.d-none.d-lg-block(src='@/assets/curso/tema1/22.png', alt=' ')
         .col-lg-8
           p.mb-0 De esta forma, es posible sumar o promediar los valores obtenidos para priorizar los activos más sensibles o aquellos que podrían verse más impactados, generando mayores consecuencias para la empresa. Asimismo, es importante considerar que se pueden incluir otros parámetros de valoración y que las escalas pueden variar, ya sea aplicando un enfoque cuantitativo o cualitativo. No obstante, este aspecto se abordará con mayor detalle en el apartado correspondiente a la gestión de riesgos de la información. 
 
@@ -375,7 +374,7 @@
           .titulo-sexto.mb-4
             h5 Tabla 3.
             | #[em Registro de activos de información de la IPS ManoSana]
-          .row.fondo1.justify-content-center.align-items-center.p-2.mb-5(data-aos="fade-down")
+          .row.fondo1.justify-content-center.align-items-center.p-2.mb-0(data-aos="fade-down")
             .col-lg-12.px-lg-5.px-4.mb-0 
               .tabla-a.tab5
                 table

@@ -48,8 +48,8 @@
  
    
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2
-        img(src="@/assets/curso/tema3/8.svg")
+      .col-lg-2.col-md-7.col-10 
+        img.mb-lg-0.mb-4(src="@/assets/curso/tema3/8.svg")
       .col-lg-10
         p.mb-0 La identificación de riesgos de la información es un procedimiento importante dentro de la gestión de la seguridad, al permitir reconocer o identificar las amenazas, vulnerabilidades y posibles impactos que puedan afectar o estén afectando los activos de la información en una organización. Por ejemplo, volviendo a una de las empresas con la que se ha venido trabajando para explicar mejor, se puede decir que la IPS ManoSana adquiere especial relevancia ya que maneja información sensible, relacionada con la salud de sus pacientes, lo cual exige criterios claros y aplicables para que se garanticen la confidencialidad, integridad y disponibilidad de los datos.
    
@@ -104,32 +104,32 @@
       .col-lg-9
         .ap8.mb-lg-5.mb-4
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-5
+            .col-lg-5.d-none.d-lg-block
               img(src="@/assets/curso/tema3/9.svg")
             .col-lg-7.p-4
-              p.mb-0 El análisis de riesgos constituye la fase en la que se estudian con detalle las amenazas y vulnerabilidades identificadas previamente, con el fin de determinar su nivel de impacto y la probabilidad de ocurrencia. En una IPS como ManoSana. Este proceso permite priorizar los riesgos que afectan directamente la confidencialidad, integridad y disponibilidad de la información clínica de los pacientes, así como los procesos administrativos y financieros.
+              p.mb-0.mx-lg-0.mx-4 El análisis de riesgos constituye la fase en la que se estudian con detalle las amenazas y vulnerabilidades identificadas previamente, con el fin de determinar su nivel de impacto y la probabilidad de ocurrencia. En una IPS como ManoSana. Este proceso permite priorizar los riesgos que afectan directamente la confidencialidad, integridad y disponibilidad de la información clínica de los pacientes, así como los procesos administrativos y financieros.
         p.mb-0 Para realizar el análisis, se deben considerar tres elementos importantes:
       
       .col-lg-3
-        img(src="@/assets/curso/tema3/10.png")
+        img.d-none.d-lg-block(src="@/assets/curso/tema3/10.png")
   
  
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-md-6.col-lg-4
+    .row.justify-content-center.align-items-stretch.mb-4
+      .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/11.svg' alt='')
           .tarjeta.ap3
             .p-4.my-4
               h4.mb-4.text-center Probabilidad
               p.mb-0.text-center Medir la posibilidad de que un riesgo ocurra (alta, media o baja).
-      .col-md-6.col-lg-4
+      .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/12.svg' alt='')
           .tarjeta.ap3
             .p-4.my-4
               h4.mb-4.text-center Impacto
               p.mb-0.text-center Valorar el efecto que tendría ese riesgo en la organización (operativo, legal, económico, reputacional).
-      .col-md-6.col-lg-4
+      .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/13.svg' alt='')
           .tarjeta.ap3
@@ -140,7 +140,7 @@
  
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
-        img(src='@/assets/curso/tema3/14.png' alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema3/14.png' alt='')
       .col-lg-8
         p.mb-4 En la IPS ManoSana, por ejemplo, un ataque de #[em ransomware] tendría una probabilidad media pero un impacto alto, ya que comprometería la disponibilidad de las historias clínicas y afectaría la atención a los pacientes. En cambio, la pérdida de un equipo obsoleto en bodega tendría una probabilidad alta pero un impacto bajo, siendo un riesgo de menor prioridad.
         .ap6.p-4
@@ -199,7 +199,7 @@
         .ap6.p-4
           p.mb-0 Es por ello, que se recomienda el empleo de una escala que combine aspectos valores cualitativos y cuantitativos, con el fin de brindar flexibilidad y se adapte a las características de cada empresa; de esta forma, se pueden asignar puntajes o categorías que definan la prioridad de un activo (alto, medio, bajo), tomando en cuenta parámetros como:
       .col-lg-4
-        img(src='@/assets/curso/tema3/1.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema3/1.png', alt='')
  
  
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
@@ -236,7 +236,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4.col-md-7.col-10.mb-lg-0.mb-4
         img(src='@/assets/curso/tema3/26.png', alt='')
       .col-lg-8
         p.mb-0 Teniendo en cuenta todos estos criterios, se puede llevar a cabo un ejercicio de priorización que ayude a valorar y ordenar los activos según su criticidad. El proceso de priorización podría variar en si se decide sumar o promediar los valores asignados a cada uno de los parámetros, aunque también se pueden desarrollar otro tipo de procedimientos, como por ejemplo, ponderaciones diferenciadas si un criterio es más importante que otro en la organización. También hay que considerar posibles variaciones en las escalas de valoración, lo que significa que cada empresa tendrá la autonomía de ajustar su modelo de medición, de acuerdo con el contexto en que se desenvuelve, ya sea implementando un enfoque más cuantitativo (midiendo en cifras) o cualitativo (valoración descriptiva).
@@ -246,8 +246,8 @@
       .col-lg-9
         .cajon-b.color-primario.p-4.mb-0
           p.mb-0 De esta manera, y con el fin de evitar confusiones al clasificar los activos en las diferentes tipologías o categorías, es bueno tener una tabla de equivalencias que orienten la ubicación correcta de cada uno. Estas tablas de equivalencia podrían funcionar como guías de referencia que permiten mantener coherencia en la valoración y evitar discrepancias cuando se trabaja con marcos conceptuales o normativos diferentes.
-        p.mb-0 A continuación, se comparten unos pasos para construir una tabla de equivalencia:
-      .col-lg-3
+        p.mb-lg-0.mb-4 A continuación, se comparten unos pasos para construir una tabla de equivalencia:
+      .col-lg-3.col-md-7.col-10
         img(src='@/assets/curso/tema3/27.svg', alt='')
  
  
@@ -256,21 +256,21 @@
         img.d-none.d-lg-block(src='@/assets/curso/tema3/28.png', alt='Imagen decorativa')  
       .col-lg-9
         SlyderF(columnas="col-lg-4 col-md-6 col-xl-4")
-          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
+          .tarjeta.tarjeta--slyder.b2.p-3.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4
               .col-8.mb-4
                 img.img-a.img-t(src='@/assets/curso/tema3/29.svg' alt='AvatarTop')
               .ap11.p-1.mb-4
                 h4.text-center.mb-0.ps-1.pe-1 1. Elegir una escala canónica
               p.mb-0.text-center Se puede utilizar una escala del 1 al 5, donde 1 = muy bajo y 5 = muy alto.
-          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
+          .tarjeta.tarjeta--slyder.b2.p-3.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4
               .col-8.mb-4
                 img.img-a.img-t(src='@/assets/curso/tema3/30.svg' alt='AvatarTop')
               .ap11.p-1.mb-4
                 h4.text-center.mb-0.ps-1.pe-1 2. Definir los criterios y su puntuación
               p.mb-0.text-center Ejemplo: Confidencialidad (C), Integridad (I) y Disponibilidad (D), cada uno calificado de 1 a 5.
-          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
+          .tarjeta.tarjeta--slyder.b2.p-3.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4
               .col-8.mb-4
                 img.img-a.img-t(src='@/assets/curso/tema3/31.svg' alt='AvatarTop')
@@ -283,7 +283,7 @@
                 li.d-flex.mb-0
                   i.fas.fa-circle
                   p.mb-0 Promedio (C + I + D) / 3: ya estará en escala 1 - 5.
-          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
+          .tarjeta.tarjeta--slyder.b2.p-3.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4
               .col-8.mb-4
                 img.img-a.img-t(src='@/assets/curso/tema3/32.svg' alt='AvatarTop')
@@ -300,7 +300,7 @@
                   i.fas.fa-circle
                   p.mb-0 Baja: ≤ 2.99
               p.mb-0 Ejemplo: suma 13 - 15 → Alta, porque 13/3 = 4.33.
-          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
+          .tarjeta.tarjeta--slyder.b2.p-3.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-0
               .col-8.mb-4
                 img.img-a.img-t(src='@/assets/curso/tema3/33.svg' alt='AvatarTop')
@@ -320,7 +320,7 @@
  
 
 
-    .row.fondo6.justify-content-center.align-items-center.p-2.mb-5(data-aos="fade-right")
+    .row.fondo6.justify-content-center.align-items-center.p-2.mb-0(data-aos="fade-right")
       .col-lg-12.px-lg-5.px-4.mb-0
  
         p.mb-4.mt-5 Por medio de los ejemplos se ilustrará mejor el proceso de valoración de los activos, aplicando la simulación en las empresas con las que se ha venido trabajando:
@@ -453,7 +453,7 @@
                 td Baja.
  
  
-    .row.fondo7.justify-content-center.align-items-center.p-2.mb-5(data-aos="fade-right")
+    .row.fondo7.justify-content-center.align-items-center.p-2.mb-0(data-aos="fade-right")
       .col-lg-12.px-lg-5.px-4.mb-0
         
         .row.justify-content-center.align-items-center.mb-5.mt-5
@@ -518,28 +518,28 @@
  
    
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7.mb-lg-0.mb-4
         .ap12.p-4
           p.mb-3 En los ejemplos anteriores, para la valoración se tuvieron los siguientes parámetros:
           p.mb-3 C, I, A se valoran cuantitativamente (1 a 5).
-          p.mb-2 Valor total se traduce a cualitativo según la suma:
+          p.mb-lg-2.mb-4 Valor total se traduce a cualitativo según la suma:
           .row.justify-content.align-items-center.mb-0
-            .col-lg-5
+            .col-lg-5.col-md-6
               .apw1.p-2
                 .row.justify-content-center.align-items-center.mb-0
-                  .col-lg-5
+                  .col-lg-5.col-md-5.col-5
                     p.mb-0.right 12 - 15
                     p.mb-0.right 8 - 11
                     p.mb-0.right ≤7
-                  .col-lg-1
+                  .col-lg-1.col-md-1.col-1
                     p.mb-0 =
                     p.mb-0 =
                     p.mb-0 =
-                  .col-lg-5
+                  .col-lg-5.col-md-5.col-5
                     p.mb-0.left Alta.
                     p.mb-0.left Media.
                     p.mb-0.left Baja.    
-      .col-lg-5
+      .col-lg-5.col-md-8.col-10
         img(src='@/assets/curso/tema3/35.png' alt='AvatarTop')
  
  
@@ -678,15 +678,15 @@
  
  
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5
+      .col-lg-5.col-md-7.col-10.mb-lg-0.mb-4
         img(src='@/assets/curso/tema3/36.png' alt='AvatarTop')
       .col-lg-7
         p.mb-4 Los activos de información representan el núcleo del funcionamiento de cualquier organización, pues incluyen tanto los datos críticos como los recursos tecnológicos, físicos, organizacionales y humanos que permiten cumplir con su misión. Reconocer su valor y tipología es fundamental para priorizar su protección y garantizar la continuidad operativa.
         .ap10.p-4
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-10
-              p.mb-0 La seguridad de la información y la gestión de riesgos permiten identificar, analizar y valorar las amenazas que podrían afectar estos activos, estableciendo controles y medidas preventivas que minimicen impactos. De esta manera, las organizaciones aseguran confidencialidad, integridad y disponibilidad de su información, fortalecen su resiliencia y fomentan la confianza de sus usuarios, clientes y colaboradores, consolidando una gestión responsable y estratégica de sus recursos.
-            .col-lg-2
+            .col-lg-10.col-md-10
+              p.mb-lg-0.mb-md-0.mb-4 La seguridad de la información y la gestión de riesgos permiten identificar, analizar y valorar las amenazas que podrían afectar estos activos, estableciendo controles y medidas preventivas que minimicen impactos. De esta manera, las organizaciones aseguran confidencialidad, integridad y disponibilidad de su información, fortalecen su resiliencia y fomentan la confianza de sus usuarios, clientes y colaboradores, consolidando una gestión responsable y estratégica de sus recursos.
+            .col-lg-2.col-md-2.col-5
               img(src='@/assets/curso/tema3/37.svg' alt='AvatarTop')
  
 
