@@ -28,8 +28,8 @@
       .col-lg-12
         figure
           .video
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Nb7DxESuY4k?si=uhUyBoS89RwzWkeD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        figcaption Video. 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D-LKPw95Cmw?si=fdqa-YuUTVK9XvkS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        figcaption Video. Gestión de activos de información y análisis de riesgos en seguridad de la información
 
 
 
