@@ -29,7 +29,7 @@
           .ap10.p-4.h-100
             img.mb-4.img-a.img-t(src='@/assets/curso/tema1/3.svg')
             h4.mb-4.text-center Elementos lógicos
-            p.mb-0.text-center Bases de datos, software y aplicaciones.
+            p.mb-0.text-center Bases de datos, #[em software] y aplicaciones.
         .col-lg-3.col-md-6.mb-lg-0.mb-md-4.mb-0.pe-lg-0.ps-lg-0
           .ap9.p-4.h-100
             img.mb-4.img-a.img-t(src='@/assets/curso/tema1/4.svg')
@@ -50,7 +50,7 @@
           img.mb-4.mb-lg-0.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/6.svg')
         .col-lg-5
           img.mb-lg-2.mb-4.img-t.imgc(src='@/assets/curso/tema1/7.svg')
-          p.mb-0 Con el tiempo, las organizaciones comenzaron a considerar la información no solo desde una perspectiva operativa, sino también estratégica. Hoy, elementos como correos electrónicos, políticas internas, manuales de procesos, bases de datos e incluso la experiencia de los trabajadores se han convertido en activos críticos que deben protegerse para asegurar la continuidad del negocio y mantener la confianza de los interesados.
+          p.mb-0 Con el tiempo, las organizaciones comenzaron a considerar la información no solo desde una perspectiva operativa, sino también estratégica. Hoy, elementos como correos electrónicos, políticas internas, manuales de procesos, bases de datos e incluso la experiencia de los trabajadores se han convertido en #[b activos críticos] que deben protegerse para asegurar la continuidad del negocio y mantener la confianza de los interesados.
 
 
       separador
@@ -120,7 +120,7 @@
                       td.left Registros de vacunación de ganado, certificados de calidad, contratos de venta agrícola, facturación electrónica.
                     tr
                       td.left #[b Activos tecnológicos y/o digitales]
-                      td.left HIS #[em (Hospital Information System)], PACS para imágenes diagnósticas, #[em firewalls] médicos, tablets para registro en cama de hospitalización.
+                      td.left HIS #[em (Hospital Information System)], PACS para imágenes diagnósticas, #[em firewalls] médicos, #[em tablets] para registro en cama de hospitalización.
                       td.left LMS #[em (Moodle)], sistema académico (SIA), servidores para aulas virtuales, #[em software] antiplagio, sistema de #[em backup] institucional.
                       td.left #[em Software] ERP agropecuario, sensores #[em IoT] de humedad, GPS en tractores, drones para fumigación, sistema de respaldo en la nube.
                     tr
@@ -199,7 +199,7 @@
                     p.mb-3 #[b Descripción breve:] aclara alcance y uso del activo.
                   li.d-flex.mb-2
                     i.fas.fa-shield
-                    p.mb-3 #[b Tipo de activo:] clasificación básica (información, software, hardware, servicios).
+                    p.mb-3 #[b Tipo de activo:] clasificación básica (información, #[em software], #[em hardware], servicios).
                   li.d-flex.mb-2
                     i.fas.fa-shield
                     p.mb-3 #[b Ubicación:] física o lógica, clave para recuperación y auditorías.
@@ -225,10 +225,10 @@
 
 
       .row.fondo11.justify-content-center.align-items-center.p-2.mb-5
-        .col-lg-12.px-lg-5.px-4.mb-0 
+        .col-lg-12.px-lg-5.px-4.mb-0(alt='La tabla presenta la equivalencia de las tipologías de activos de información según diferentes marcos y organismos: AND, MINTIC, ISO/IEC 27001 y MAGERIT v3. Permite observar cómo cada entidad clasifica los activos en categorías como información, tecnología, infraestructura, organización y recursos humanos. Este comparativo facilita la armonización y comprensión de los activos al aplicar estándares de gestión de seguridad de la información en distintas organizaciones.')
           .row.justify-content-center.align-items-center.mt-5.mb-0(data-aos="fade-right")
             .col-lg-12
-              .titulo-sexto.mb-2(alt='Tabla con ocho pasos para el trazo del rectángulo base del patrón infantil, que incluye fórmulas o medidas, descripción del trazado y la función correspondiente en la construcción del patrón básico superior.')
+              .titulo-sexto.mb-2
                 h5 Tabla 2.
                 | #[em Equivalencia de tipologías de activos de información]
               .tabla-a.tab5
@@ -243,14 +243,14 @@
                         span.fw-normal (MINHAP, 2012)
                   tbody
                     tr
-                      td.left Activos de información
+                      td.left Activos de información.
                       td.left Información.
                       td.left Información.
                       td.left Información o datos, soportes de información.
                     tr
                       td.left Activos tecnológicos y/o digitales.
                       td.left #[em Software, hardware.]
-                      td.left #[em Software, hardware, servicios.]
+                      td.left #[em Software, hardware,] servicios.
                       td.left #[em Software,] aplicaciones, equipos informáticos, redes de comunicación.
                     tr
                       td.left Activos de infraestructura física.
@@ -384,7 +384,7 @@
                       th Activo
                       th Tipología 
                       th Descripción breve 
-                      th Propietario o Responsable
+                      th Propietario o responsable
                       th Ubicación 
                       th Fecha / actualización 
                   tbody

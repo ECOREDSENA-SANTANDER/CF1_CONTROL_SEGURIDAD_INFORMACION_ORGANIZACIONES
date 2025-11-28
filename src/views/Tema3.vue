@@ -71,18 +71,18 @@
             tbody
               tr
                 td.tl #[b Establecimiento del contexto]
-                td.tl Historias clínicas electrónicas, consentimientos informados digitalizados, reportes epidemiológicos enviados al Ministerio de Salud, nómina de empleados.
+                td.tl Definir el alcance, objetivos, criterios de riesgo y responsabilidad dentro de la organización.
                 td.tl La IPS define que el análisis de riesgos abarcará historias clínicas electrónicas, sistemas de citas y base de datos de pacientes, asignando la responsabilidad al área de TI y dirección médica.
              
               tr
                 td.tl #[b Identificación de activos]
                 td.tl Registrar todos los activos de información que la organización considera valiosos y críticos.
-                td.tl Se elabora un inventario con historias clínicas electrónicas, software de gestión hospitalaria, servidores, personal médico y contratos con aseguradoras.
+                td.tl Se elabora un inventario con historias clínicas electrónicas, #[em software] de gestión hospitalaria, servidores, personal médico y contratos con aseguradoras.
              
               tr
                 td.tl #[b Identificación de amenazas]
                 td.tl Reconocer eventos o acciones (naturales, técnicas o humanas) que puedan afectar los activos.
-                td.tl Se identifican amenazas como ciberataques (ransomware), incendios en sala de servidores o errores humanos en actualización de datos de pacientes.
+                td.tl Se identifican amenazas como ciberataques #[em (ransomware)], incendios en sala de servidores o errores humanos en actualización de datos de pacientes.
              
               tr
                 td.tl #[b Identificación de vulnerabilidades]
@@ -91,8 +91,8 @@
              
               tr
                 td.tl #[b Evaluación de probabilidad e impacto]
-                td.tl Evaluar la probabilidad de que las amenazas se materialicen y el impacto que generarán.
-                td.tl Se estima la probabilidad media de phishing al personal administrativo y un impacto alto si ocurre, ya que comprometería datos sensibles de pacientes y la operación clínica.
+                td.tl Evaluar la probabilidad de que las amenazas se materialicen y el impacto que generarían.
+                td.tl Se estima la probabilidad media de #[em phishing] al personal administrativo y un impacto alto si ocurre, ya que comprometería datos sensibles de pacientes y la operación clínica.
  
  
     separador
@@ -481,7 +481,7 @@
                     td 13.
                     td Alta.
                   tr
-                    td.left Registro sanitario/vacunación del hato.
+                    td.left Registro sanitario / vacunación del hato.
                     td 3.
                     td 4.
                     td 4.
@@ -549,7 +549,7 @@
       .col-lg-12(alt='La tabla presenta un ejemplo integrado de registro y valoración de activos en la IPS ManoSana, incluyendo información sobre tipo de activo, ubicación, responsable y puntuaciones de confidencialidad (C), integridad (I) y disponibilidad (D). Cada activo recibe una valoración cuantitativa y cualitativa, permitiendo identificar los recursos más críticos. Este enfoque facilita la gestión priorizada y segura de los activos de información de la institución.')
         .titulo-sexto.color-secundario.mb-4
           h5 Tabla 11.
-          | #[em Valoración de activos en Finca La Costa]
+          | #[em Registro y valoración de activos en IPS ManoSana]
         .tabla-a.tab9
           table
             thead

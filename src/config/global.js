@@ -208,7 +208,7 @@ export default {
     {
       termino: 'Activos de información',
       significado:
-        'Elementos que poseen valor para una organización, como datos, software, hardware, personas o servicios. Identificarlos y clasificarlos es fundamental para su protección dentro del sistema de seguridad.',
+        'Elementos que poseen valor para una organización, como datos, <em>software</em>, <em>hardware</em>, personas o servicios. Identificarlos y clasificarlos es fundamental para su protección dentro del sistema de seguridad.',
     },
     {
       termino: 'Análisis de riesgo',
@@ -259,38 +259,43 @@ export default {
   referencias: [
     {
       referencia:
-        'AND. (2020a). Guía de gestión y clasificación de activos de información. https://and.gov.co/sites/default/files/2022-05/Guia_De_Gestion_y_clasificacion_de_activos_de_informacon.pdf',
-      link: '',
+        'AND. (2020a). Guía de gestión y clasificación de activos de información.',
+      link:
+        'https://and.gov.co/sites/default/files/2022-05/Guia_De_Gestion_y_clasificacion_de_activos_de_informacon.pdf',
     },
     {
       referencia:
-        'AND. (2020b). Guía de gestión y clasificación de activos de información. https://and.gov.co/sites/default/files/2022-05/Guia_De_Gestion_y_clasificacion_de_activos_de_informacon.pdf',
-      link: '',
+        'AND. (2020b). Guía de gestión y clasificación de activos de información.',
+      link:
+        'https://and.gov.co/sites/default/files/2022-05/Guia_De_Gestion_y_clasificacion_de_activos_de_informacon.pdf',
     },
     {
       referencia:
-        'Cane, T. (2025). ISO 27001:2022 annex A 5.9 – inventory of information and other associated assets. ISMS.Online. https://www.isms.online/iso-27001/annex-a/5-9-inventory-of-information-other-associated-assets-2022/',
-      link: '',
+        'Cane, T. (2025). ISO 27001:2022 annex A 5.9 – inventory of information and other associated assets. ISMS.Online.',
+      link:
+        'https://www.isms.online/iso-27001/annex-a/5-9-inventory-of-information-other-associated-assets-2022/',
     },
     {
       referencia:
-        'Ministerio de hacienda y administraciones públicas. (2012). MAGERIT - versión 3.0. https://es.slideshare.net/slideshow/magerit-v3-libro2catalogo-de-elementosesnipo630121718/128115305',
-      link: '',
+        'Ministerio de hacienda y administraciones públicas. (2012). MAGERIT - versión 3.0.',
+      link:
+        'https://es.slideshare.net/slideshow/magerit-v3-libro2catalogo-de-elementosesnipo630121718/128115305',
+    },
+    {
+      referencia: 'MINTIC. (2025). Registro de Activos de Información.',
+      link:
+        'https://mintic.gov.co/portal/inicio/Atencion-y-Servicio-a-la-Ciudadania/Transparencia/135888:Registro-de-Activos-de-Informacion',
     },
     {
       referencia:
-        'MINTIC. (2025). Registro de Activos de Información. https://mintic.gov.co/portal/inicio/Atencion-y-Servicio-a-la-Ciudadania/Transparencia/135888:Registro-de-Activos-de-Informacion',
-      link: '',
+        'Mohan, V. (2024). ISO 27001 Annex A.8: Asset management explained. Sprinto.',
+      link: 'https://sprinto.com/blog/iso-27001-annex-a-8-asset-management/',
     },
     {
       referencia:
-        'Mohan, V. (2024). ISO 27001 Annex A.8: Asset management explained. Sprinto. https://sprinto.com/blog/iso-27001-annex-a-8-asset-management/',
-      link: '',
-    },
-    {
-      referencia:
-        'Novaseguridad. (2021). La seguridad de la información y sus 3 pilares fundamentales. Novasep. https://www.novaseguridad.com.co/seguridad-de-la-informacion-principios/',
-      link: '',
+        'Novaseguridad. (2021). La seguridad de la información y sus 3 pilares fundamentales. Novasep.',
+      link:
+        'https://www.novaseguridad.com.co/seguridad-de-la-informacion-principios/',
     },
   ],
   creditos: [
@@ -315,7 +320,7 @@ export default {
         {
           nombre: 'Armando Javier López Sierra',
           cargo: 'Experto temático',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima.',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
