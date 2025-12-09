@@ -354,11 +354,6 @@ export default {
       autores: [
         {
           nombre: 'Andrea Ardila Chaparro',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
