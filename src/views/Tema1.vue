@@ -65,7 +65,7 @@
           p.mb-4 Los activos de información pueden ser presentados de diferentes formas en una organización, por lo tanto, una buena clasificación ayuda en la gestión y protección de los mismos. Reconocer su tipología permite saber y entender que hay que proteger, cómo se deben controlar, y qué valor estratégico aportan a los procesos; lo que facilita su identificación, protección y gestión adecuada dentro de la empresa. 
           .ap.p-4.mb-0
             .row.justify-content-center.align-items-center.mb-0
-              p.mb-0 En la gestión de la seguridad de la información, los activos de información pueden ser clasificados desde diferentes perspectivas, de tal manera que se facilite su administración y protección; por ejemplo según su naturaleza o función.
+              p.mb-0 En la gestión de la seguridad de la información, los activos de información pueden ser clasificados desde diferentes perspectivas, de tal manera que se facilite su administración y protección; por ejemplo: según su naturaleza o función.
 
 
       p.mb-5 En este caso, se tomará de base la clasificación con la cual trabaja la AND (AND, 2020b), la cual se explica a continuación: 
@@ -467,20 +467,9 @@
                       td.left Encargados de mantenimiento y soporte a usuarios.
                       td.left Jefe de tecnología.
                       td.left Área de Sistemas.
-                      td.left 31/08/2025.}
+                      td.left 31/08/2025.
 
-                      
-
-
-
-
-
-
-
-
-
-
-
+    
 
   </template>
 
