@@ -132,7 +132,7 @@
                       td.left #[b Activos organizacionales]
                       td.left Protocolos de atención en urgencias, plan de continuidad de negocio hospitalario, acuerdos de confidencialidad con proveedores de TI, convenios con EPS.
                       td.left Reglamento estudiantil, plan de calidad educativa, manual de convivencia, política institucional de uso de TIC, convenios con universidades extranjeras.
-                      td.left Plan de buenas prácticas agrícolas (BPA), normas de bioseguridad, contratos con proveedores, plan de gestión de residuos agroindustriales.
+                      td.left Plan de Buenas Prácticas Agrícolas (BPA), normas de bioseguridad, contratos con proveedores, plan de gestión de residuos agroindustriales.
                     tr
                       td.left #[b Activos de recursos humanos]
                       td.left Médicos especialistas, personal de urgencias, técnicos de laboratorio clínico, personal de seguridad hospitalaria, proveedores externos de esterilización.

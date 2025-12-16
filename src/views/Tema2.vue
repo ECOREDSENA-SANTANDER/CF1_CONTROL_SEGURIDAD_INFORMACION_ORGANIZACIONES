@@ -181,7 +181,7 @@
                       p.mb-2 Garantizar que los registros de inventario, control de fertilización y planes de cultivo no sean alterados sin autorización.
                     li.d-flex.mb-2
                       i.fas.fa-shield.blu
-                      p.mb-0 Sistemas de #[em backup] que aseguran la recuperación de datos originales
+                      p.mb-0 Sistemas de #[em backup] que aseguran la recuperación de datos originales.
     
     
     separador
